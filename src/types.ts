@@ -1,6 +1,6 @@
 export interface Environment {
   alias: { [key: string]: string }
-  inject: { [key: string]: string | string[] }
+  inject: { [key: string]: string | [string, string] }
   polyfill: string[]
   external: string[]
 }

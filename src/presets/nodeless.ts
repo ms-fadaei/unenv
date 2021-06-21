@@ -1,7 +1,7 @@
 import { NodeBuiltinModules, mapArrToVal } from '../utils'
 import type { Preset } from '../types'
 
-export default {
+export const nodeless = {
   alias: {
     ...mapArrToVal('unenv/runtime/mock/proxy', NodeBuiltinModules),
 

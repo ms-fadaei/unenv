@@ -17,6 +17,8 @@
     "release": "standard-version && npm publish && git push --follow-tags"
   },
   "dependencies": {
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-inject": "^4.0.2",
     "buffer": "^6.0.2",
     "defu": "^3.2.2",
     "events": "^3.2.0",
@@ -35,6 +37,6 @@
     "eslint": "latest",
     "standard-version": "latest",
     "typescript": "latest",
-    "unbuild": "^0.2.1"
+    "unbuild": "^0.2.2"
   }
 }

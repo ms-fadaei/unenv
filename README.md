@@ -45,6 +45,9 @@ Using `env` utility and builtin presets ([node](./src/presets/node.ts) and [node
 import { env, node, nodeless } from 'unenv'
 
 const { alias, inject, polyfill, external } = env(...presets)
+
+// returns set of rollup plugins
+createPlugins({ alias: { 'custom': 'other' } }, deno(), nodeless())
 ```
 
 ## Usage: As a runtime library

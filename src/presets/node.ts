@@ -1,7 +1,7 @@
 import { NodeBuiltinModules } from '../utils'
 import type { Preset } from '../types'
 
-export default {
+export const node = {
   alias: {
     'node-fetch': 'node-fetch/lib/index.js'
   },
